@@ -3,7 +3,11 @@ QR CODE Generator for WI FI Networks
 
 ![image](https://user-images.githubusercontent.com/88720549/163514657-e76e4e9a-8cf8-4d88-be6f-401774380796.png)
 
+## grcode-wifi.py
 ![HELLO WORLD!](https://user-images.githubusercontent.com/88720549/163514606-d6fe5d04-396f-4ea8-91c8-77c5cc525fe1.png)
+
+## grcode-wifi-icon.py
+![HELLO WORLD!](https://user-images.githubusercontent.com/88720549/163629531-74a8d6e2-bdfc-4016-8f2b-1fe6c052277e.png)
 
 # Message for you
 Hello, I hope you have a good learning experience, that you can clear your doubts or implement your projects. Feel free to make suggestions to improve the script.
