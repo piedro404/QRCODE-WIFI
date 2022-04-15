@@ -13,7 +13,11 @@ try:
     if not os.path.exists("QRCODE"):
         os.makedirs("QRCODE")
     qr.add_data(f"WIFI:T:{type};S:{ssid};P:{password};H:{hidden};;")
-    img = qr.make_image(image_factory=StyledPilImage, embeded_image_path="imagem/signal.png")
+    try:
+        img = qr.make_image(image_factory=StyledPilImage, embeded_image_path="imagem/signal.png")
+    except:
+        img = qr.make_image()
+        
     img.save(f"QRCODE/{ssid.upper()}.png")
     print("QRCODE Salvo com Sucesso")
 
